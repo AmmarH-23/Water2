@@ -1,14 +1,14 @@
 import openai
-import streamlit as st
-import os
-import requests
 from PIL import Image
 from datetime import datetime
 from streamlit.components.v1 import html
 import matplotlib.pyplot as plt
 import folium
 from streamlit_folium import folium_static
-
+import secrets
+import streamlit as st
+import os
+import requests
 
 # Set up OpenAI API key
 openai.api_key = os.getenv("OPENAI_API_KEY")
@@ -17,7 +17,7 @@ openai.api_key = os.getenv("OPENAI_API_KEY")
 google_maps_api_key = os.getenv("GOOGLE_MAPS_API_KEY")
 openweathermap_api_key = os.getenv("OPENWEATHERMAP_API_KEY")
 
-# Custom CSS for background and sidebar
+# Custom CSS for background sidebar
 st.markdown("""
     <style>
     .stApp {

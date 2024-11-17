@@ -1,11 +1,7 @@
-openai
 streamlit
-os
-requests
-Image
-datetime
-html
-matplotlib.pyplot
+openai
+Pillow
+matplotlib
 folium
-folium_static
-streamlit.components.v1
+streamlit-folium
+requests
