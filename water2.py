@@ -11,7 +11,7 @@ import os
 import requests
 
 # Set up OpenAI API key
-OPENAI_API_KEY = "OPEN_API_KEY"
+openai.OPENAI_API_KEY = "OPEN_API_KEY"
 # Set up Google Maps API key
 google_maps_api_key = "AIzaSyA7agiQ1KAlt3E3ANtkXX3t0ktA-_jqZd0"
 openweathermap_api_key = "6182f54f72ed61cd73e678a5c8a69344"
