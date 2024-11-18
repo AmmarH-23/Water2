@@ -11,7 +11,7 @@ import os
 import requests
 
 # Set up OpenAI API key
-openai.api_key = os.getenv("OPENAI_API_KEY")
+openai.api_key = os.getenv("YOUR_API_KEY")
 
 # Set up Google Maps API key
 google_maps_api_key = os.getenv("GOOGLE_MAPS_API_KEY")
